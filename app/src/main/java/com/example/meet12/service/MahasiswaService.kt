@@ -12,6 +12,7 @@ import retrofit2.http.PUT
 import retrofit2.http.Query
 
 interface MahasiswaService {
+    // Mengatur header untuk setiap request agar menerima dan mengirimkan data dalam format JSON
     @Headers(
         "Accept: application/json",
         "Content-Type: application/json",
