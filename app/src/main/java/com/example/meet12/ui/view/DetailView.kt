@@ -65,7 +65,7 @@ fun DetailView(
 ) {
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
     val detailUiState = viewModel.detailUiState
-    val showDialog = remember { mutableStateOf(false) }
+    val showDialog = remember { mutableStateOf(false) } // State untuk menampilkan dialog konfirmasi hapus
 
     Scaffold(
         modifier = modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
