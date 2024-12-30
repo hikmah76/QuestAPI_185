@@ -23,7 +23,7 @@ interface MahasiswaRepository {
 class NetworkMahasiswaRepository(
     private val mahasiswaApiService: MahasiswaService
 ) : MahasiswaRepository {
-
+    // Implementasi untuk menyimpan Mahasiswa baru ke API
     override suspend fun insertMahasiswa(mahasiswa: Mahasiswa) {
         mahasiswaApiService.insertMahasiswa(mahasiswa)
     }
