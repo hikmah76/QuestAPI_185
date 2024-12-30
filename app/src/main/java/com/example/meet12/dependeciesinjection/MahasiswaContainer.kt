@@ -22,6 +22,7 @@ class MahasiswaContainer :
     //localhost diganti ip kalo run di hp
     private val json =
         Json { ignoreUnknownKeys = true }
+    //Retrofit  untuk melakukan request API
     private val retrofit: Retrofit = Retrofit.Builder()
         .addConverterFactory(
             json.asConverterFactory(
