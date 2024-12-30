@@ -108,6 +108,7 @@ fun EntryBody(
 }
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
+// Form input untuk mengisi data mahasiswa
 fun FormInput(
     insertUiEvent: InsertUiEvent,
     modifier:
