@@ -81,7 +81,7 @@ fun PengelolaHalaman(
             route = "${DestinasiEdit.route}/{nim}",
             arguments = listOf(navArgument("nim") { type = NavType.StringType })
         ) {
-            UpdateScreen(
+            UpdateScreen( // Memanggil komponen UpdateScreen (halaman untuk mengedit data)
                 navigateBack = {
                     navController.navigate(DestinasiHome.route) {
                         popUpTo(DestinasiHome.route) {
