@@ -90,7 +90,7 @@ fun DetailView(
             }
         )
     }
-
+    // Dialog konfirmasi untuk menghapus mahasiswa
     if (showDialog.value) {
         DeleteConfirmationDialog(
             onConfirmDelete = {
