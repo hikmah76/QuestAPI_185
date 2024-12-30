@@ -127,7 +127,7 @@ fun BodyDetail(
         }
     }
 }
-
+// ItemDetail menampilkan informasi lengkap mahasiswa dalam bentuk card
 @Composable
 fun ItemDetail(
     mahasiswa: Mahasiswa,
@@ -146,6 +146,7 @@ fun ItemDetail(
                 .fillMaxWidth(),
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
+            // Menampilkan detail mahasiswa
             ComponentDetail("NIM", mahasiswa.nim)
             ComponentDetail("Nama", mahasiswa.nama)
             ComponentDetail("Jenis Kelamin", mahasiswa.jenisKelamin)
