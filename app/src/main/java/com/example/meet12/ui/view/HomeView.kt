@@ -113,6 +113,7 @@ fun HomeStatus(
                     Text(text = "Tidak ada data Mahasiswa" )
                 }
             }else {
+                // Menampilkan daftar mahasiswa jika data tersedia
                 MhsLayout(
                     mahasiswa = homeUiState.mahasiswa, modifier = modifier.fillMaxWidth(),
                     onDetailClick = {
