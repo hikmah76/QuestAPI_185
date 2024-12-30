@@ -70,6 +70,7 @@ fun HomeScreen(
             )
         },
         floatingActionButton = {
+            // FloatingActionButton untuk menambahkan mahasiswa baru
             FloatingActionButton(
                 onClick = navigateToItemEntry,
                 shape = MaterialTheme.shapes.medium,
