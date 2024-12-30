@@ -78,6 +78,7 @@ fun DetailView(
             )
         },
     ) { innerPadding ->
+        // Menampilkan BodyDetail yang berisi informasi mahasiswa
         BodyDetail(
             detailUiState = detailUiState,
             modifier = Modifier.padding(innerPadding),
