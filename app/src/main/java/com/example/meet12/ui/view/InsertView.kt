@@ -74,6 +74,7 @@ fun EntryMhsScreen(
     }
 }
 @Composable
+// Body form untuk input data mahasiswa
 fun EntryBody(
     insertUiState: InsertUiState,
     onSiswaValueChange: (InsertUiEvent) -> Unit,
