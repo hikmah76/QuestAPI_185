@@ -132,6 +132,7 @@ fun FormInput(
             enabled,
             singleLine = true
         )
+
         OutlinedTextField(
             value = insertUiEvent.nim,
             onValueChange = { onValueChange(insertUiEvent.copy(nim = it)) },
@@ -192,6 +193,7 @@ fun FormInput(
                 dp)
             )
         }
+        // Divider sebagai pemisah antara bagian form
         Divider(
             thickness = 8.dp,
             modifier = Modifier.padding(12.dp)
