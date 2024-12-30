@@ -27,7 +27,7 @@ class NetworkMahasiswaRepository(
     override suspend fun insertMahasiswa(mahasiswa: Mahasiswa) {
         mahasiswaApiService.insertMahasiswa(mahasiswa)
     }
-
+//untuk memperbarui data Mahasiswa berdasarkan NIM
     override suspend fun updateMahasiswa(nim: String, mahasiswa: Mahasiswa) {
         mahasiswaApiService.updateMahasiswa(nim, mahasiswa)
     }
