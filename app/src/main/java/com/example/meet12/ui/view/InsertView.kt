@@ -86,6 +86,7 @@ fun EntryBody(
         verticalArrangement = Arrangement.spacedBy(18.dp),
         modifier = modifier.padding(12.dp)
     ) {
+        //komponen untuk menampilkan input mahasiswa
         FormInput(
             insertUiEvent =
             insertUiState.insertUiEvent,
