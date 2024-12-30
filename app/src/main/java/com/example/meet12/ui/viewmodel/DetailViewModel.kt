@@ -16,6 +16,7 @@ class DetailViewModel(
     private val mahasiswaRepository: MahasiswaRepository,
     savedStateHandle: SavedStateHandle
 ) : ViewModel() {
+    // Menyimpan nilai NIM dari parameter yang diteruskan melalui savedStateHandle
     private val nimParameter: String = checkNotNull(savedStateHandle["nim"])
 
     var detailUiState: DetailUiState by mutableStateOf(DetailUiState.Loading)
