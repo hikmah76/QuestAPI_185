@@ -25,7 +25,7 @@ class DetailViewModel(
     init {
         getMhsById()
     }
-
+    // Fungsi untuk mengambil data mahasiswa berdasarkan NIM
     private fun getMhsById() {
         viewModelScope.launch {
             detailUiState = DetailUiState.Loading
