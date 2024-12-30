@@ -49,6 +49,7 @@ class NetworkMahasiswaRepository(
         mahasiswaApiService.getAllMahasiswa()
 
     override suspend fun getMahasiswaByNim(nim: String): Mahasiswa {
+        // Memanggil metode API untuk mendapatkan data Mahasiswa berdasarkan NIM
         return mahasiswaApiService.getMahasiswabyNim(nim)
     }
 
