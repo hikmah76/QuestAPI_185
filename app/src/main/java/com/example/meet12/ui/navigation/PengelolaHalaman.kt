@@ -76,7 +76,7 @@ fun PengelolaHalaman(
                 }
             )
         }
-
+        // Menyediakan halaman detail berdasarkan 'nim'
         composable(
             route = "${DestinasiEdit.route}/{nim}",
             arguments = listOf(navArgument("nim") { type = NavType.StringType })
